@@ -1,0 +1,150 @@
+#box {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.39);
+}
+
+.head-1 {
+    padding: 2%;
+    padding-left: 60px;
+}
+
+
+.head-2 ul {
+    list-style-type: none;
+}
+
+.head-2 ul li {
+    display: inline;
+}
+
+.head-2 ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500px;
+    padding: 5px 25px;
+}
+
+.head-2 a:hover {
+    color: black;
+    border-bottom: 2px solid;
+}
+
+
+/* <!--------------head-3---------------------> */
+.head-3{
+    border: 1px solid black;
+    padding: 4%;
+    margin: 4%;
+}
+.head-3 button{
+    border: none;
+    background: none;
+    border: 1px solid black;
+    
+    padding: 5px;
+    background-color: white;
+
+}
+.head-3 button:hover{
+    background-color:rgb(216, 216, 216);
+}
+.head-3 p{
+    width: 80%;
+}
+
+/*------------------head-4----------------------*/
+
+.head-4{
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.head-4 .h4-data {
+   width: 60%;
+   padding: 11%;
+}
+
+.head-4 button{
+    border: none;
+    background: none;
+    border: 1px solid black;
+    
+    padding: 5px;
+    background-color: white;
+
+}
+.head-4 button:hover{
+    background-color:rgb(216, 216, 216);
+}
+
+/*-------------head-5--------------------*/
+.head-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: rgb(241, 241, 241)
+}
+.head-5 ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.head-5 ul li{
+   padding-right: 60%;
+   margin-left: -45%;
+}
+/*---------------head-6-----------------------*/
+.head-6{
+    display: flex;
+}
+.head-6 .h6-data{
+    width: 60%;
+    padding: 11%;
+}
+.head-6 .h6-data img{
+    width: 40%;
+}
+
+.head-6 .h6-data button{
+    border: none;
+    background: none;
+    color: white ;
+    background-color: rgb(29, 29, 29);
+    padding: 3%;
+}
+
+.head-6 .h6-data button:hover{
+    background-color: black;
+}
+
+/*---------------head-6-----------------------*/
+
+.head-7{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+.head-7 .h7-data{
+    width: 50%;
+    padding: 5%;
+}
+
+.head-7 .h7-data button{
+    border: none;
+    background: none;
+    color: white ;
+    background-color: rgb(29, 29, 29);
+    padding: 3%;
+}
+
+.head-7 .h7-data button:hover{
+    background-color: black;
+}

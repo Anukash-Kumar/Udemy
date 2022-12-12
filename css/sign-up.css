@@ -1,0 +1,27 @@
+#sign-up{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    width: 350px;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+.sign-up-btn{
+    width: 350px;
+    background-color: RGB(135, 16, 216)    ;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.button{
+    font-weight: 700;
+    color: white;
+}
